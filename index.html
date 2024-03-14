@@ -13,7 +13,9 @@
     } else {
         var s ='https://cobcem-hukto.github.io/CHO/'
     }
-    window.open(s, '_self', false)</script>
+    if (window.location.href != s) {
+        window.open(s, '_self', false)</script>
+    }
     <div class="slider">
         <video id="slider" class="video" src="video.mp4" muted loop></video>
     </div>
